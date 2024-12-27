@@ -34,6 +34,7 @@ const Filters = () => {
               ? "bg-primary-300"
               : "bg-primary-100 border border-primary-200"
           }`}
+          key={index}
         >
           <Text
             className={`text-sm ${
